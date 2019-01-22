@@ -224,12 +224,14 @@ public:
 			AddMainMenuGossipItem(player);
 			player->PlayerTalkClass->SendGossipMenu(DUNGEONS_AND_RAIDS, item->GetGUID());
 			break;
+            
 			break;
-		case 320000: //Special Dungeon
-					 //	AddGossipItemFor(player, 0, "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|t)
+		case 320000://Special Dungeon
+				    //AddGossipItemFor(player, 0, "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|t)
 				AddMainMenuGossipItem(player);
 				player->PlayerTalkClass->SendGossipMenu(DUNGEONS_AND_RAIDS, item->GetGUID());
 				break;
+                
 				break;
 		case 330000: // super instances
 					 //	AddGossipItemFor(player, 0 "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|t)
@@ -311,6 +313,7 @@ public:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(389, 0.876914f, -23.6f, -20.458948f, 4.39f);
 			break;
+            
 		case  99901:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(36, -16.4f, -383.070f, 61.779999f, 2.526370f);
@@ -346,18 +349,22 @@ public:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(349, 752.909973f, -616.5300f, -33.110f, 1.370f);
 			break;
+            
 		case  99912:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(0, 2880.742f, -808.762f, 160.332993f, 5.323298f);
 			break;
+            
 		case  99913:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(70, -221.603928f, 63.427294f, -46.038364f, 3.117877f);
 			break;
+            
 		case  99914:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(429, -201.110f, -328.660f, -2.723914f, 5.22f);
 			break;
+            
 		case  99915:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(289, 200.4320f, 92.276497f, 128.442001f, 1.497f);
@@ -367,22 +374,27 @@ public:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(129, 2593.680f, 1111.22998f, 50.951801f, 4.712390f);
 			break;
+            
 		case  99919:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(329, 3393.175293f, -3380.268066f, 142.717148f, 0.053661f);
 			break;
-		case  99920:
+            
+		case  99920
 			CloseGossipMenuFor(player);
 			player->TeleportTo(209, 1213.520f, 841.590f, 9.298f, 7.090f);
 			break;
+            
 		case  99921:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(230, 458.320f, 26.520f, -70.673f, 4.950f);
 			break;
+            
 		case  99922:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(109, -319.239990f, 99.90f, -131.850f, 3.711505f);
 			break;
+            
 		case  99924:
 			CloseGossipMenuFor(player);
 			player->TeleportTo(0, -7524.189941f, -1230.130f, 285.7330f, 2.095f);
@@ -399,25 +411,32 @@ public:
 			AddMainMenuGossipItem(player);
 			player->PlayerTalkClass->SendGossipMenu(DUNGEONS, item->GetGUID());
 			break;
+            
 			//Teleports of outland instances.
 		case  99925:
 			player->TeleportTo(530, -335.308990f, 3126.635742f, -102.765564f, 2.194442f);
 			break;
+            
 		case  99926:
 			player->TeleportTo(530, 735.065979f, 6883.450195f, -66.291298f, 5.891720f);
 			break;
+  
 		case  99927:
 			player->TeleportTo(530, -3323.294922f, 4934.059570f, -100.308395f, 2.184640f);
 			break;
 		case  99928:
+        
 			player->TeleportTo(1, -8488.0f, -4212.0f, -215.0f, 3.978554f);
 			break;
 		case  99929:
+        
 			player->TeleportTo(530, 3098.744629f, 1507.355469f, 190.3f, 4.568055f);
 			break;
+            
 		case  99930:
 			player->TeleportTo(530, 12884.6f, -7317.7f, 65.502296f, 4.7990f);
 			break;
+            
 			//Northrend
 		case  313:
 			AddGossipItemFor(player, 0, "|TInterface\\icons\\achievement_dungeon_utgardekeep:20 |tUtgarde Keep", 1, 99931);
@@ -440,6 +459,7 @@ public:
 			AddMainMenuGossipItem(player);
 			player->PlayerTalkClass->SendGossipMenu(DUNGEONS, item->GetGUID());
 			break;
+            
 		case  99931:
 			player->TeleportTo(574, 153.789f, -86.547997f, 12.551f, 0.304f);
 			break;
