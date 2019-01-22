@@ -224,18 +224,19 @@ public:
 			AddMainMenuGossipItem(player);
 			player->PlayerTalkClass->SendGossipMenu(DUNGEONS_AND_RAIDS, item->GetGUID());
 			break;
-			break;
+			
 		case 320000: //Special Dungeon
-					 //	AddGossipItemFor(player, 0, "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|t)
+					 //	AddGossipItemFor(player, 0, "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|tTier1)
 				AddMainMenuGossipItem(player);
 				player->PlayerTalkClass->SendGossipMenu(DUNGEONS_AND_RAIDS, item->GetGUID());
 				break;
-				break;
+				
 		case 330000: // super instances
-					 //	AddGossipItemFor(player, 0 "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|t)
+					 //	AddGossipItemFor(player, 0 "|TInterface\\icons\\creatureportrait_be_scryingorb_epic:20|tTier1)
 					AddMainMenuGossipItem(player);
 					player->PlayerTalkClass->SendGossipMenu(DUNGEONS_AND_RAIDS, item->GetGUID());
 					break;
+                    
 		case 3://Dungeons and Raids
 			AddGossipItemFor(player, 0, "|TInterface\\icons\\spell_holy_revivechampion:20|tDungeons", GOSSIP_SENDER_MAIN, 31);
 			AddGossipItemFor(player, 0, "|TInterface\\icons\\inv_helmet_74:20|tRaids", GOSSIP_SENDER_MAIN, 32);
@@ -277,7 +278,7 @@ public:
 			player->PlayerTalkClass->SendGossipMenu(DUNGEONS, item->GetGUID());
 			break;
 
-		case 10000://Battle angel
+		case 10001://Lich King
 			CloseGossipMenuFor(player);
 			player->TeleportTo(0, 745.286f, -4016.07f, 93.4931f, 0.334191f);
 			break;
